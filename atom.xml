@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xikuang.ren</id>
     <title>西狂部落阁</title>
-    <updated>2019-07-14T17:27:16.236Z</updated>
+    <updated>2019-07-14T17:40:44.600Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xikuang.ren"/>
     <link rel="self" href="https://xikuang.ren/atom.xml"/>
@@ -10,6 +10,45 @@
     <logo>https://xikuang.ren/images/avatar.png</logo>
     <icon>https://xikuang.ren/favicon.ico</icon>
     <rights>All rights reserved 2019, 西狂部落阁</rights>
+    <entry>
+        <title type="html"><![CDATA[翻译软件界的新星，PDF文档翻译神器 CopyTranslator]]></title>
+        <id>https://xikuang.ren/post/copytranslator</id>
+        <link href="https://xikuang.ren/post/copytranslator">
+        </link>
+        <updated>2019-01-14T18:13:47.000Z</updated>
+        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2019-01-15-ct.jpg?imageslim" alt="ct"></p>
+<p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2019-01-15-ct.jpg?imageslim" alt="ct"></p>
+<p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
+<!-- more --> 
+<h2 id="copytranslator-核心用法">CopyTranslator 核心用法</h2>
+<ol>
+<li><strong>复制翻译</strong>：打开网页/PDF，选中要翻译的单词、段落或者多段文字，按<code>Ctrl+C</code>或右键复制文本，CopyTranslator 监听到剪贴板变化，会将剪贴板内容进行处理（如去除多余换行等）后，翻译并显示。</li>
+</ol>
+<p><img src="https://www.xikuang.ren/zy/2019-01-15-15474894366336.jpg?imageslim" alt=""></p>
+<ol>
+<li><strong>点按翻译</strong>：在打开监听剪贴板选项后，只需选中文字，并将鼠标悬停在选中文字上方长按不动超过 0.3 s 后释放鼠标，也就是长按后释放，即可翻译。这就将右键再选择复制或者是疯狂按<code>ctrl+c</code>都省了。 <img src="https://www.xikuang.ren/zy/2019-01-15-longpresscopy.gif?imageslim" alt="longpresscopy"></li>
+</ol>
+<h2 id="copytranslator-软件特性">CopyTranslator 软件特性</h2>
+<ul>
+<li>复制即翻译，操作简单方便</li>
+<li>解决 PDF 文字复制后换行格式错乱的问题</li>
+<li>支持多段文字同时翻译</li>
+<li>谷歌多语言智能互译</li>
+<li>单词、短语支持有道智能词典查词</li>
+<li>对照模式（原文译文对照）、专注模式（专注译文）切换</li>
+</ul>
+<p><img src="https://www.xikuang.ren/zy/2019-01-15-15474895283084.png?imageslim" alt=""></p>
+<h2 id="copytranslator-官网及下载">CopyTranslator 官网及下载</h2>
+<p>CopyTranslator 有中文版，目前只只支持 Windows 平台，作者 Elliott Zheng 计划使用 Electron 重写，不久将会支持 mac/linux/windows 三大主流桌面平台。</p>
+<ul>
+<li><a href="https://hypercube.top/copytranslator/">CopyTranslator官网</a></li>
+<li><a href="https://github.com/elliottzheng/CopyTranslator">Github项目主页</a></li>
+<li><a href="https://github.com/elliottzheng/CopyTranslator/releases">CopyTranslator下载地址</a></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://xikuang.ren/post/hello-gridea</id>
