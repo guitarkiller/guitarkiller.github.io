@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://guitarkiller.github.io</id>
+    <id>https://xikuang.ren</id>
     <title>西狂部落阁</title>
-    <updated>2019-07-14T17:19:23.994Z</updated>
+    <updated>2019-07-14T17:27:16.236Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://guitarkiller.github.io"/>
-    <link rel="self" href="https://guitarkiller.github.io/atom.xml"/>
+    <link rel="alternate" href="https://xikuang.ren"/>
+    <link rel="self" href="https://xikuang.ren/atom.xml"/>
     <subtitle>点滴珍藏|快乐分享</subtitle>
-    <logo>https://guitarkiller.github.io/images/avatar.png</logo>
-    <icon>https://guitarkiller.github.io/favicon.ico</icon>
+    <logo>https://xikuang.ren/images/avatar.png</logo>
+    <icon>https://xikuang.ren/favicon.ico</icon>
     <rights>All rights reserved 2019, 西狂部落阁</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://guitarkiller.github.io/post/hello-gridea</id>
-        <link href="https://guitarkiller.github.io/post/hello-gridea">
+        <id>https://xikuang.ren/post/hello-gridea</id>
+        <link href="https://xikuang.ren/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
