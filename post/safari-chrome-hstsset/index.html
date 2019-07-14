@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>又一款开源、跨平台、高颜值的 Markdown 笔记应用 —— Notable | 西狂部落阁</title>
+<title>Safari / Chrome / Firefox 浏览器强制跳转 HTTPS 导致无法访问 HTTP | 西狂部落阁</title>
 <meta name="description" content="点滴珍藏|快乐分享">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -92,38 +92,38 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">又一款开源、跨平台、高颜值的 Markdown 笔记应用 —— Notable</h2>
-            <div class="post-date">2019-01-04</div>
+            <h2 class="post-title">Safari / Chrome / Firefox 浏览器强制跳转 HTTPS 导致无法访问 HTTP</h2>
+            <div class="post-date">2018-07-31</div>
             
             <div class="post-content">
-              <p><img src="https://www.xikuang.ren/zy/2019-01-04-15465846030139.jpg?imageslim" alt=""></p>
-<p>Notable 是 Github 上新发布的一款优秀的开源 Markdown 笔记应用，短短时间已经有 4770 多赞。Notable 有着简洁、优雅的三栏界面，使用可以无限层嵌套的标签（tags）管理 Markdown 文件。</p>
-<!-- more -->
-<h2 id="notable-的文档组织形式">Notable 的文档组织形式：</h2>
-<pre><code>/path/to/your/data_directory
-├─┬ attachments
-│ ├── foo.ext
-│ ├── bar.ext
-│ └── …
-└─┬ notes
-  ├── foo.md
-  ├── bar.md
-  └── …
-</code></pre>
-<h2 id="notable-的特点">Notable 的特点：</h2>
-<ul>
-<li><strong>没有专有格式</strong>：只是一个结构如上所示的文件夹，笔记文件是纯 Markdown 文件，其元数据存储为 Markdown 文头注释。附件也是普通文件，如果您附加一个<code>picture.jpg</code>附件，它的所有内容都将被保留，并且它将像任何其他文件一样保持可访问状态。</li>
-<li><strong>正确的编辑器</strong>：Notable 不使用任何 WYSIWYG 编辑器，你只需要写一些 Markdown，它就会被渲染为 GitHub 风格的 Markdown。内置编辑器是 CodeMirror，也可以在系统默认的 Markdown 编辑器中打开当前文件。</li>
-<li><strong>无限可嵌套标签</strong>：在 Notable 中你可以有 root 标签（<code>foo</code>），无限可嵌套标签（<code>foo/bar</code>，<code>foo/.../qux</code>），当然，一个文件可以有多个标签。</li>
-<li><strong>跨平台</strong>：目前支持<code>Windows</code>和<code>macOS</code>双平台。</li>
-</ul>
-<p><img src="https://www.xikuang.ren/zy/2019-01-04-15465861956358.png?imageslim" alt=""></p>
-<p><img src="https://www.xikuang.ren/zy/2019-01-04-15465862067691.png?imageslim" alt=""></p>
-<h2 id="notable-与其他-markdown-编辑器的对比图">Notable 与其他 Markdown 编辑器的对比图</h2>
-<p><img src="https://raw.githubusercontent.com/fabiospampinato/notable/master/resources/comparison/table.png" alt="对比"></p>
-<h2 id="notable-下载">Notable 下载</h2>
-<p>Github 上的项目地址：<a href="https://github.com/fabiospampinato/notable">Notable</a></p>
-<p>下载地址：<a href="https://github.com/fabiospampinato/notable/releases">Notable</a></p>
+              <p><img src="https://www.xikuang.ren/zy/2018-07-31-https.jpg?imageslim" alt="https"></p>
+<p>近期，因为尝试将网站升级到 https 访问，发现了一个问题，macOS 系统自带的 Safari 浏览器在用 https 方式浏览过一个网站后，再次以 http 协议访问这个网站，会强制跳转到 https ,即使这个网站已经不支持 https 了。</p>
+ <!-- more -->
+<p>百度发现，很多人在访问 B 站时遇到了这个问题，点击了带 https 的链接后就再也回不去了。普遍的解决方法是删除<code>~/Library/cookies/HSTS.Plist</code> 文件，也许是因为系统或者浏览器升级的原因，阁主死活没有找到这个文件在哪里。经过一番尝试，还是让我找到了办法。后来发现 Chrome 也有这个问题，将解决办法一并贴出。</p>
+<h2 id="safari-浏览器macos">Safari 浏览器(macOS)</h2>
+<ol>
+<li>点击浏览器菜单 <code>Safari浏览器</code>-<code>偏好设置</code>；</li>
+<li>弹出窗口点击 <code>隐私</code>-<code>管理网站数据…</code>；</li>
+<li>右上角输入要恢复http访问的网站域名，如<code>xikuang.ren</code>;</li>
+<li>选中搜索到的项目，点击<code>移除</code>；</li>
+<li>重启 Safari 浏览器，Done。</li>
+</ol>
+<p><img src="https://www.xikuang.ren/zy/2018-07-31-Safari1.jpg?imageslim" alt="Safari1"></p>
+<p><img src="https://www.xikuang.ren/zy/2018-07-31-Safari2.jpg?imageslim" alt="Safari2"></p>
+<h2 id="chrome-浏览器">Chrome 浏览器</h2>
+<ol>
+<li>请在chrome的地址栏输入<code>chrome://net-internals/#hsts</code>；</li>
+<li>在打开的页面中， <code>Delete domain</code> 栏的输入框中输入域名，然后点击<code>delete</code>按钮;</li>
+<li>重启 Chrome 浏览器, Done。</li>
+</ol>
+<p><img src="https://www.xikuang.ren/zy/2018-07-31-chrome.jpg?imageslim" alt="chrome"></p>
+<h2 id="firefox-浏览器">Firefox 浏览器</h2>
+<ol>
+<li>关闭所有已打开的页面；</li>
+<li>清空历史记录和缓存；</li>
+<li>地址栏输入 <code>about:permissions</code> ；</li>
+<li>搜索项目域名，并点击 <code>Forget About This Site</code> 。</li>
+</ol>
 
             </div>
             
@@ -138,9 +138,9 @@
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://xikuang.ren/post/hello-gridea">
+                <a href="https://xikuang.ren/post/xunfeiliusheng">
                   <h3 class="post-title">
-                    Hello Gridea
+                    快来『讯飞留声 Lite』小程序定制个人的声音库
                   </h3>
                 </a>
               </div>
