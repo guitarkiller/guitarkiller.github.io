@@ -1,195 +1,219 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+  <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>数码生活 | 西狂部落阁</title>
-<meta name="description" content="点滴珍藏|快乐分享">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
+<link rel="shortcut icon" href="https://xikuang.ren/favicon.ico?v=1563204669604">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://xikuang.ren/favicon.ico?v=1563174870179">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://xikuang.ren/styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://xikuang.ren">
-        <img src="https://xikuang.ren/images/avatar.png?v=1563174870179" class="site-logo">
-        <h1 class="site-title">西狂部落阁</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://xikuang.ren">
+  <img class="avatar" src="https://xikuang.ren/images/avatar.png?v=1563204669604" alt="">
+  </a>
+  <h1 class="site-title">
+    西狂部落阁
+  </h1>
+  <p class="site-description">
+    点滴珍藏|快乐分享
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
+        <a href="/" class="menu">
+          首页
+        </a>
       
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
+    
       
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
+        <a href="/archives" class="menu">
+          归档
+        </a>
       
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
+    
       
-    </div>
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
+  <div class="social-container">
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
+    
       
-        
-      
-    </div>
-    <div class="site-description">
-      点滴珍藏|快乐分享
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xikuang.ren/atom.xml" target="_blank">RSS</a>
-    </div>
+    
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: 数码生活</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://xikuang.ren/post/copytranslator">
-                  <h2 class="post-title">翻译软件界的新星，PDF文档翻译神器 CopyTranslator</h2>
-                </a>
-                <div class="post-date">
-                  2019-01-15
-                </div>
-                <div class="post-abstract">
-                  <p><img src="https://www.xikuang.ren/zy/2019-01-15-ct.jpg?imageslim" alt="ct"></p>
-<p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://xikuang.ren/post/notable">
-                  <h2 class="post-title">又一款开源、跨平台、高颜值的 Markdown 笔记应用 —— Notable</h2>
-                </a>
-                <div class="post-date">
-                  2019-01-04
-                </div>
-                <div class="post-abstract">
-                  <p><img src="https://www.xikuang.ren/zy/2019-01-04-15465846030139.jpg?imageslim" alt=""></p>
-<p>Notable 是 Github 上新发布的一款优秀的开源 Markdown 笔记应用，短短时间已经有 4770 多赞。Notable 有着简洁、优雅的三栏界面，使用可以无限层嵌套的标签（tags）管理 Markdown 文件。</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://xikuang.ren/post/safari-chrome-hstsset">
-                  <h2 class="post-title">Safari / Chrome / Firefox 浏览器强制跳转 HTTPS 导致无法访问 HTTP</h2>
-                </a>
-                <div class="post-date">
-                  2018-07-31
-                </div>
-                <div class="post-abstract">
-                  <p><img src="https://www.xikuang.ren/zy/2018-07-31-https.jpg?imageslim" alt="https"></p>
-<p>近期，因为尝试将网站升级到 https 访问，发现了一个问题，macOS 系统自带的 Safari 浏览器在用 https 方式浏览过一个网站后，再次以 http 协议访问这个网站，会强制跳转到 https ,即使这个网站已经不支持 https 了。</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://xikuang.ren/post/xunfeiliusheng">
-                  <h2 class="post-title">快来『讯飞留声 Lite』小程序定制个人的声音库</h2>
-                </a>
-                <div class="post-date">
-                  2018-07-30
-                </div>
-                <div class="post-abstract">
-                  <p><img src="https://www.xikuang.ren/zy/2018-07-30-15329337955494.gif?imageslim" alt=""></p>
-<p>刚刚 Google 在微信小程序发布了猜画小歌，国内语音技术行业龙头科大讯飞也坐不住了，于近日发布了一款叫做『讯飞留声 Lite』的小程序。</p>
-
-                </div>
-              </div>
-              
-            </article>
-          
-
-          <div class="pagination-container">
-  
-  
-</div>
-
+        <div class="current-tag-container">
+            <h2 class="title">
+                标签：#数码生活
+            </h2> 
         </div>
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://xikuang.ren/post/copytranslator">
+        <h2 class="post-title">翻译软件界的新星，PDF文档翻译神器 CopyTranslator</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-01-15 ·
+        </time>
+        
+          <a href="https://xikuang.ren/tag/shu-ma-sheng-huo" class="post-tag">
+            # 数码生活
+          </a>
+        
       </div>
-    </div>
+      
+        <a href="https://xikuang.ren/post/copytranslator" class="post-feature-image" style="background-image: url('https://xikuang.ren/post-images/copytranslator.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://xikuang.ren/post/notable">
+        <h2 class="post-title">又一款开源、跨平台、高颜值的 Markdown 笔记应用 —— Notable</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-01-04 ·
+        </time>
+        
+          <a href="https://xikuang.ren/tag/shu-ma-sheng-huo" class="post-tag">
+            # 数码生活
+          </a>
+        
+      </div>
+      
+        <a href="https://xikuang.ren/post/notable" class="post-feature-image" style="background-image: url('https://xikuang.ren/post-images/notable.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>Notable 是 Github 上新发布的一款优秀的开源 Markdown 笔记应用，短短时间已经有 4770 多赞。Notable 有着简洁、优雅的三栏界面，使用可以无限层嵌套的标签（tags）管理 Markdown 文件。</p>
 
-<script type="application/javascript">
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://xikuang.ren/post/safari-chrome-hstsset">
+        <h2 class="post-title">Safari / Chrome / Firefox 浏览器强制跳转 HTTPS 导致无法访问 HTTP</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2018-07-31 ·
+        </time>
+        
+          <a href="https://xikuang.ren/tag/shu-ma-sheng-huo" class="post-tag">
+            # 数码生活
+          </a>
+        
+      </div>
+      
+        <a href="https://xikuang.ren/post/safari-chrome-hstsset" class="post-feature-image" style="background-image: url('https://xikuang.ren/post-images/safari-chrome-hstsset.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>近期，因为尝试将网站升级到 https 访问，发现了一个问题，macOS 系统自带的 Safari 浏览器在用 https 方式浏览过一个网站后，再次以 http 协议访问这个网站，会强制跳转到 https ,即使这个网站已经不支持 https 了。</p>
 
-AOS.init();
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://xikuang.ren/post/xunfeiliusheng">
+        <h2 class="post-title">快来『讯飞留声 Lite』小程序定制个人的声音库</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2018-07-30 ·
+        </time>
+        
+          <a href="https://xikuang.ren/tag/shu-ma-sheng-huo" class="post-tag">
+            # 数码生活
+          </a>
+        
+      </div>
+      
+        <a href="https://xikuang.ren/post/xunfeiliusheng" class="post-feature-image" style="background-image: url('https://xikuang.ren/post-images/xunfeiliusheng.gif')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>刚刚 Google 在微信小程序发布了猜画小歌，国内语音技术行业龙头科大讯飞也坐不住了，于近日发布了一款叫做『讯飞留声 Lite』的小程序。</p>
 
-hljs.initHighlightingOnLoad()
+      </di>
+    </article>
+  
+    <article class="post">
+      <a href="https://xikuang.ren/post/google-wechatgame">
+        <h2 class="post-title">猜画小歌：Google 利用微信用户训练谷歌人工智能</h2>
+      </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2018-07-18 ·
+        </time>
+        
+          <a href="https://xikuang.ren/tag/shu-ma-sheng-huo" class="post-tag">
+            # 数码生活
+          </a>
+        
+      </div>
+      
+        <a href="https://xikuang.ren/post/google-wechatgame" class="post-feature-image" style="background-image: url('https://xikuang.ren/post-images/google-wechatgame.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        <p>这两天，Google 发布了叫做『猜画小歌』的小游戏，立刻火遍了大江南北。</p>
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
+      </di>
+    </article>
+  
+</div>
 
+        <div class="pagination-container">
+  
+  
+</div>
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://xikuang.ren/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>

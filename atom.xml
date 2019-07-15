@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xikuang.ren</id>
     <title>西狂部落阁</title>
-    <updated>2019-07-15T07:14:31.784Z</updated>
+    <updated>2019-07-15T15:33:01.430Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xikuang.ren"/>
     <link rel="self" href="https://xikuang.ren/atom.xml"/>
@@ -16,20 +16,19 @@
         <link href="https://xikuang.ren/post/copytranslator">
         </link>
         <updated>2019-01-14T18:13:47.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2019-01-15-ct.jpg?imageslim" alt="ct"></p>
-<p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
+        <summary type="html"><![CDATA[<p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2019-01-15-ct.jpg?imageslim" alt="ct"></p>
-<p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
+        <content type="html"><![CDATA[<p>最近，Github 上一款由国人开发的开源翻译软件火了。这款叫做<strong>CopyTranslator</strong>的软件直指阅读 PDF 外文文献时，需要频繁复制粘贴到谷歌翻译，并且会出现多余换行导致乱码以及译文与中文阅读习惯不符的痛点，提出了“复制即翻译”的高效率操作，迅速俘获了大量粉丝。</p>
 <!-- more --> 
 <h2 id="copytranslator-核心用法">CopyTranslator 核心用法</h2>
 <ol>
 <li><strong>复制翻译</strong>：打开网页/PDF，选中要翻译的单词、段落或者多段文字，按<code>Ctrl+C</code>或右键复制文本，CopyTranslator 监听到剪贴板变化，会将剪贴板内容进行处理（如去除多余换行等）后，翻译并显示。</li>
 </ol>
-<p><img src="https://www.xikuang.ren/zy/2019-01-15-15474894366336.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563201614534.jpg" alt=""></p>
 <ol>
-<li><strong>点按翻译</strong>：在打开监听剪贴板选项后，只需选中文字，并将鼠标悬停在选中文字上方长按不动超过 0.3 s 后释放鼠标，也就是长按后释放，即可翻译。这就将右键再选择复制或者是疯狂按<code>ctrl+c</code>都省了。 <img src="https://www.xikuang.ren/zy/2019-01-15-longpresscopy.gif?imageslim" alt="longpresscopy"></li>
+<li><strong>点按翻译</strong>：在打开监听剪贴板选项后，只需选中文字，并将鼠标悬停在选中文字上方长按不动超过 0.3 s 后释放鼠标，也就是长按后释放，即可翻译。这就将右键再选择复制或者是疯狂按<code>ctrl+c</code>都省了。</li>
 </ol>
+<p><img src="https://xikuang.ren/post-images/1563201659677.gif" alt=""></p>
 <h2 id="copytranslator-软件特性">CopyTranslator 软件特性</h2>
 <ul>
 <li>复制即翻译，操作简单方便</li>
@@ -39,7 +38,7 @@
 <li>单词、短语支持有道智能词典查词</li>
 <li>对照模式（原文译文对照）、专注模式（专注译文）切换</li>
 </ul>
-<p><img src="https://www.xikuang.ren/zy/2019-01-15-15474895283084.png?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563201677412.png" alt=""></p>
 <h2 id="copytranslator-官网及下载">CopyTranslator 官网及下载</h2>
 <p>CopyTranslator 有中文版，目前只只支持 Windows 平台，作者 Elliott Zheng 计划使用 Electron 重写，不久将会支持 mac/linux/windows 三大主流桌面平台。</p>
 <ul>
@@ -55,11 +54,9 @@
         <link href="https://xikuang.ren/post/notable">
         </link>
         <updated>2019-01-04T07:19:28.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2019-01-04-15465846030139.jpg?imageslim" alt=""></p>
-<p>Notable 是 Github 上新发布的一款优秀的开源 Markdown 笔记应用，短短时间已经有 4770 多赞。Notable 有着简洁、优雅的三栏界面，使用可以无限层嵌套的标签（tags）管理 Markdown 文件。</p>
+        <summary type="html"><![CDATA[<p>Notable 是 Github 上新发布的一款优秀的开源 Markdown 笔记应用，短短时间已经有 4770 多赞。Notable 有着简洁、优雅的三栏界面，使用可以无限层嵌套的标签（tags）管理 Markdown 文件。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2019-01-04-15465846030139.jpg?imageslim" alt=""></p>
-<p>Notable 是 Github 上新发布的一款优秀的开源 Markdown 笔记应用，短短时间已经有 4770 多赞。Notable 有着简洁、优雅的三栏界面，使用可以无限层嵌套的标签（tags）管理 Markdown 文件。</p>
+        <content type="html"><![CDATA[<p>Notable 是 Github 上新发布的一款优秀的开源 Markdown 笔记应用，短短时间已经有 4770 多赞。Notable 有着简洁、优雅的三栏界面，使用可以无限层嵌套的标签（tags）管理 Markdown 文件。</p>
 <!-- more -->
 <h2 id="notable-的文档组织形式">Notable 的文档组织形式：</h2>
 <pre><code>/path/to/your/data_directory
@@ -89,57 +86,21 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://xikuang.ren/post/hello-gridea</id>
-        <link href="https://xikuang.ren/post/hello-gridea">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="http://hvenotes.fehey.com/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[波士顿动力公司 (Boston Dynamics) 将四足机器人 SpotMini 推向市场]]></title>
         <id>https://xikuang.ren/post/spotminionsell</id>
         <link href="https://xikuang.ren/post/spotminionsell">
         </link>
         <updated>2018-08-11T09:31:32.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-08-11-dims.jpeg?imageslim" alt="dims"></p>
-<p>波士顿动力公司（Boston Dynamics）在实验室研究迭代多款令人惊叹的智能机器人设计后，终于准备将其首款比较成熟的原型——一款名为 SpotMini 的小型狗式机器人推向市场。</p>
+        <summary type="html"><![CDATA[<p>波士顿动力公司（Boston Dynamics）在实验室研究迭代多款令人惊叹的智能机器人设计后，终于准备将其首款比较成熟的原型——一款名为 SpotMini 的小型狗式机器人推向市场。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-08-11-dims.jpeg?imageslim" alt="dims"></p>
-<p>波士顿动力公司（Boston Dynamics）在实验室研究迭代多款令人惊叹的智能机器人设计后，终于准备将其首款比较成熟的原型——一款名为 SpotMini 的小型狗式机器人推向市场。</p>
+        <content type="html"><![CDATA[<p>波士顿动力公司（Boston Dynamics）在实验室研究迭代多款令人惊叹的智能机器人设计后，终于准备将其首款比较成熟的原型——一款名为 SpotMini 的小型狗式机器人推向市场。</p>
 <!-- more --> 
 <p>波士顿动力创始人 Marc Raibert 于5月份宣布该决定， 最近表示，到明年7月，波士顿动力公司将以每年约1,000台的速度生产 SpotMini。</p>
 <p>波士顿动力公司以前的机器人采用大量暴露布线和裸露金属，SpotMini 拥有时尚的成品设计。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-11-maxresdefault.jpg?imageslim" alt="maxresdefault"></p>
+<p><img src="https://xikuang.ren/post-images/1563201929722.jpg" alt=""></p>
 <p>SpotMini 的设计在经过它的前辈机器人 （如Cheetah ，BigDog和Spot）的迭代，正在变得越来越平稳。SpotMini高 3 英尺，重约 55 磅，可以放在较大的机器人无法到达的地方。 它可选配蛇形手臂，甚至让 SpotMini 做开门、拿东西等事情。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-11-bg2018081010.jpg?imageslim" alt="bg2018081010"></p>
+<p><img src="https://xikuang.ren/post-images/1563201997987.jpg" alt=""></p>
 <p>基于波士顿动力的机器人已经在业内有了非常高的知名度，其相关视频在YouTube上有近亿次的观看。由于SpotMini 基于一个灵活的平台，可以应用于很多场景。 根据 Raibert 的说法，SpotMini 目前正在测试用于建筑施工，邮件寄递，安保和家庭援助等方面的应用。如 SpotMini 可以为亚马逊等公司测试的无人机送快递项目提供低风险的替代品。所以，波士顿动力似乎无需为没有市场担心。</p>
-<p>本博曾在 <a href="http://www.xikuang.ren/1048.html">波士顿动力家的机器人又双叒叕学会新技能了</a> 一文中介绍过 SpotMini,就是下面这个动图：</p>
-<p><img src="https://www.xikuang.ren/zy/img/2018-02-14-IT-r-fyrpeie1648705.gif?imageslim" alt="Spot Mini"></p>
 ]]></content>
     </entry>
     <entry>
@@ -148,86 +109,86 @@
         <link href="https://xikuang.ren/post/skyscraper">
         </link>
         <updated>2018-08-08T07:10:12.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-08-08-15337119658125.jpg?imageslim" alt=""></p>
+        <content type="html"><![CDATA[<!-- more -->
 <hr>
 <p><strong>1.迪拜风中烛火大楼</strong>（效果图）</p>
 <p>迪拜疯狂建筑艺术的代表，如风中烛火般暗明摇曳。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-5cef35fc6ef20db7126c3461b617fc2d_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202168871.jpg" alt=""></p>
 <hr>
 <p><strong>2.沙特钻石大厦</strong>（在建中）</p>
 <p>431 m， 93层，犹三条巨蟒从地下盘旋而上，直窜云霄。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-cecffeb55f7afb83bf71166f26b3ce36_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202195369.jpg" alt=""></p>
 <hr>
 <p><strong>3.印度孟买瓦塔拉塔</strong>（效果图）</p>
 <p>如藤蔓盘旋，如长蛇游曳。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-5f0be7643127331174355f9cddccddc6_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202233140.jpg" alt=""></p>
 <hr>
 <p><strong>4.香港停车楼</strong>（效果图）</p>
 <p>参差无序，乱中求矩。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-6611020cd90a88a7b8f72a2bdcfb53a6_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202256203.jpg" alt=""></p>
 <hr>
 <p><strong>5.科威特的眼镜蛇塔</strong>（效果图）</p>
 <p>巨蟒纠缠，静中舞动。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-ebb47cde63859f0a78b478b792adf6e8_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202286141.jpg" alt=""></p>
 <hr>
 <p><strong>6.纽约大别针</strong>（效果图）</p>
 <p>高约600 m，长1219 米，如果建成，将成为世界第一长楼。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-b3a40bd2b6c56a38584bbf7a95a345fe_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202300958.jpg" alt=""></p>
 <hr>
 <p><strong>7.韩国无尽大厦</strong>（在建中）</p>
 <p>492 m，世界上首幢隐形大楼。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-1a06ae4f8c9ca3b56f0a19285bf0ce9b_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202331134.jpg" alt=""></p>
 <hr>
 <p><strong>8.广州小蛮腰</strong>（已建成）</p>
 <p>600m，中部扭转形成 “纤纤细腰” 的椭圆形，中国第一高塔。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-46ec39b791086f2ddeaab5483e5ee55a_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202349291.jpg" alt=""></p>
 <hr>
 <p><strong>9.迪拜旋转塔</strong>（在建中）</p>
 <p>约 420 m， 80 层，每一层都能以不同速度独立自由旋转360 度，90 分钟将旋转一圈。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-09105ee5a1bdf9d35f28b46dbb51f73d_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202371647.jpg" alt=""></p>
 <hr>
 <p><strong>10.迪拜哈利法塔</strong>（已建成）</p>
 <p>828 m，162 层，世界第一高楼与人工构造物。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-ebcf086cc2be7bfaf061542542ca0557_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202385825.jpg" alt=""></p>
 <hr>
 <p><strong>11.伦敦彩色子弹</strong>（已建成）</p>
 <p>180 m，40 层，螺旋形外表能避免旋气流和强风对大楼的影响。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-23c95a6111035cf3ca95074180fc29ee_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202402463.jpg" alt=""></p>
 <hr>
 <p><strong>12.阿联酋露露岛塔</strong>（效果图）</p>
 <p>如织如梭，庞盈相宜。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-3251bbfeda797ef2613608538aa8a0c3_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202434576.jpg" alt=""></p>
 <hr>
 <p><strong>13.加拿大玛丽莲居</strong>（已建成）</p>
 <p>高 179.5 m和 161 m，为 56 层和 50 层，流线曲转，婀娜多姿，媲美梦露。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-55ce965b52f59d639805de709bc970ba_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202454257.jpg" alt=""></p>
 <hr>
 <p><strong>14.迪拜开花塔</strong>（效果图）</p>
 <p>铁树银花，细嗅蔷薇。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-6303b227a2d8ff70f75ac0cd3bff4175_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202466682.jpg" alt=""></p>
 <hr>
 <p><strong>15.新加坡超级树</strong>（已建成）</p>
 <p>18 棵，高度25 m~ 50 m， 树梢建有酒馆。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-c4a3ecc046413d437c37cb46a60bff4a_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202503230.jpg" alt=""></p>
 <hr>
 <p><strong>16.阿布扎比首都门</strong>（已建成）</p>
 <p>160 m，35 层，12 楼以上逐渐向西倾斜，倾斜度达 18 度，是世界上最倾斜的大厦。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-471a3bcda5584ec13bc2fe14df9175ef_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202524813.jpg" alt=""></p>
 <hr>
 <p><strong>17.日本广丝带教堂</strong>（已建成）</p>
 <p>15.4 m，两个螺旋楼梯缠绕而上，如缎带悬动，教堂为婚礼而设，新郎新娘不同的楼梯出发，缓缓而上，在顶部相遇。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-607b43bcfbc5658dff838aefe13fbd41_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202577639.jpg" alt=""></p>
 <hr>
 <p><strong>18.阿布扎比海洋城市</strong>（效果图）</p>
 <p>迎风起航，随风而动。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-e21bbf293c0bb4eda273d1feba43ba0a_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202592917.jpg" alt=""></p>
 <hr>
 <p><strong>19.吉达王国塔</strong>（在建中）</p>
 <p>1001 m，275 层，若建成，则是人类首个迈入公里的摩天大楼。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-20bd0282d2b84c792e2ed6de9aaad013_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202615797.jpg" alt=""></p>
 <hr>
 <p><strong>20.陆家嘴三剑客</strong></p>
-<p><img src="https://www.xikuang.ren/zy/2018-08-08-v2-f416012e7876706f7acaa961537890ed_hd.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202640038.jpg" alt=""></p>
 ]]></content>
     </entry>
     <entry>
@@ -236,11 +197,9 @@
         <link href="https://xikuang.ren/post/qian-ben-cao">
         </link>
         <updated>2018-08-05T15:09:40.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-08-05-qianbencaoh.jpg?imageslim" alt="qianbencaoh"></p>
-<p>唐代文学家张说曾经历仕四朝、三秉大政，掌文学之任三十年，而且著作很多，张说文笔锋健、才思敏捷，堪称叱咤风云的一代英豪，但是他仕途坎坷，曾经因为得罪武则天的面首而被流放和贬谪，三起三落的坎坷经历使得张说的诗文中充满着看破红尘的沧桑感，对于张说的散文《钱本草》，文章不长，通俗易懂，全篇录于下：</p>
+        <summary type="html"><![CDATA[<p>唐代文学家张说曾经历仕四朝、三秉大政，掌文学之任三十年，而且著作很多，张说文笔锋健、才思敏捷，堪称叱咤风云的一代英豪，但是他仕途坎坷，曾经因为得罪武则天的面首而被流放和贬谪，三起三落的坎坷经历使得张说的诗文中充满着看破红尘的沧桑感，对于张说的散文《钱本草》，文章不长，通俗易懂，全篇录于下：</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-08-05-qianbencaoh.jpg?imageslim" alt="qianbencaoh"></p>
-<p>唐代文学家张说曾经历仕四朝、三秉大政，掌文学之任三十年，而且著作很多，张说文笔锋健、才思敏捷，堪称叱咤风云的一代英豪，但是他仕途坎坷，曾经因为得罪武则天的面首而被流放和贬谪，三起三落的坎坷经历使得张说的诗文中充满着看破红尘的沧桑感，对于张说的散文《钱本草》，文章不长，通俗易懂，全篇录于下：</p>
+        <content type="html"><![CDATA[<p>唐代文学家张说曾经历仕四朝、三秉大政，掌文学之任三十年，而且著作很多，张说文笔锋健、才思敏捷，堪称叱咤风云的一代英豪，但是他仕途坎坷，曾经因为得罪武则天的面首而被流放和贬谪，三起三落的坎坷经历使得张说的诗文中充满着看破红尘的沧桑感，对于张说的散文《钱本草》，文章不长，通俗易懂，全篇录于下：</p>
 <!-- more -->
 <blockquote>
 <p>钱，味甘，大热，有毒。</p>
@@ -296,11 +255,9 @@
         <link href="https://xikuang.ren/post/safari-chrome-hstsset">
         </link>
         <updated>2018-07-31T07:43:55.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-07-31-https.jpg?imageslim" alt="https"></p>
-<p>近期，因为尝试将网站升级到 https 访问，发现了一个问题，macOS 系统自带的 Safari 浏览器在用 https 方式浏览过一个网站后，再次以 http 协议访问这个网站，会强制跳转到 https ,即使这个网站已经不支持 https 了。</p>
+        <summary type="html"><![CDATA[<p>近期，因为尝试将网站升级到 https 访问，发现了一个问题，macOS 系统自带的 Safari 浏览器在用 https 方式浏览过一个网站后，再次以 http 协议访问这个网站，会强制跳转到 https ,即使这个网站已经不支持 https 了。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-07-31-https.jpg?imageslim" alt="https"></p>
-<p>近期，因为尝试将网站升级到 https 访问，发现了一个问题，macOS 系统自带的 Safari 浏览器在用 https 方式浏览过一个网站后，再次以 http 协议访问这个网站，会强制跳转到 https ,即使这个网站已经不支持 https 了。</p>
+        <content type="html"><![CDATA[<p>近期，因为尝试将网站升级到 https 访问，发现了一个问题，macOS 系统自带的 Safari 浏览器在用 https 方式浏览过一个网站后，再次以 http 协议访问这个网站，会强制跳转到 https ,即使这个网站已经不支持 https 了。</p>
  <!-- more -->
 <p>百度发现，很多人在访问 B 站时遇到了这个问题，点击了带 https 的链接后就再也回不去了。普遍的解决方法是删除<code>~/Library/cookies/HSTS.Plist</code> 文件，也许是因为系统或者浏览器升级的原因，阁主死活没有找到这个文件在哪里。经过一番尝试，还是让我找到了办法。后来发现 Chrome 也有这个问题，将解决办法一并贴出。</p>
 <h2 id="safari-浏览器macos">Safari 浏览器(macOS)</h2>
@@ -311,15 +268,15 @@
 <li>选中搜索到的项目，点击<code>移除</code>；</li>
 <li>重启 Safari 浏览器，Done。</li>
 </ol>
-<p><img src="https://www.xikuang.ren/zy/2018-07-31-Safari1.jpg?imageslim" alt="Safari1"></p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-31-Safari2.jpg?imageslim" alt="Safari2"></p>
+<p><img src="https://xikuang.ren/post-images/1563202871080.jpg" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563202881979.jpg" alt=""></p>
 <h2 id="chrome-浏览器">Chrome 浏览器</h2>
 <ol>
 <li>请在chrome的地址栏输入<code>chrome://net-internals/#hsts</code>；</li>
 <li>在打开的页面中， <code>Delete domain</code> 栏的输入框中输入域名，然后点击<code>delete</code>按钮;</li>
 <li>重启 Chrome 浏览器, Done。</li>
 </ol>
-<p><img src="https://www.xikuang.ren/zy/2018-07-31-chrome.jpg?imageslim" alt="chrome"></p>
+<p><img src="https://xikuang.ren/post-images/1563202904170.jpg" alt=""></p>
 <h2 id="firefox-浏览器">Firefox 浏览器</h2>
 <ol>
 <li>关闭所有已打开的页面；</li>
@@ -335,14 +292,12 @@
         <link href="https://xikuang.ren/post/xunfeiliusheng">
         </link>
         <updated>2018-07-30T07:23:56.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-07-30-15329337955494.gif?imageslim" alt=""></p>
-<p>刚刚 Google 在微信小程序发布了猜画小歌，国内语音技术行业龙头科大讯飞也坐不住了，于近日发布了一款叫做『讯飞留声 Lite』的小程序。</p>
+        <summary type="html"><![CDATA[<p>刚刚 Google 在微信小程序发布了猜画小歌，国内语音技术行业龙头科大讯飞也坐不住了，于近日发布了一款叫做『讯飞留声 Lite』的小程序。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-07-30-15329337955494.gif?imageslim" alt=""></p>
-<p>刚刚 Google 在微信小程序发布了猜画小歌，国内语音技术行业龙头科大讯飞也坐不住了，于近日发布了一款叫做『讯飞留声 Lite』的小程序。</p>
+        <content type="html"><![CDATA[<p>刚刚 Google 在微信小程序发布了猜画小歌，国内语音技术行业龙头科大讯飞也坐不住了，于近日发布了一款叫做『讯飞留声 Lite』的小程序。</p>
 <!-- more --> 
 <p>进入小程序后，点击『复刻我的声音』，按照说明，对着手机麦克风在安静的环境中朗读 10 段文字，每段文字读完后会自动上传。完成后，在等待20分钟左右，就可以获得自己的定制声音库。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-30-15329342034389.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563203289697.jpg" alt=""></p>
 <p>这款小程序基于科大讯飞强大的个性化语音合成技术，为用户提供个人音库定制、音库应用等服务的专业化平台。机器可以模仿不同人的口音，形成个人音库，在各类需要语音合成技术的产品中，用户都可以将自己在讯飞留声中制作的音库进行使用。</p>
 <p>目前，在讯飞留声中制作的声音库，只能在小程序中使用，但其以后的应用场景无可限量。想象一下，未来在智能音箱中女朋友的声音每天准时叫你起床，为您播报天气和新闻。车载导航系统中妻子、孩子的声音为您保驾护航。智能玩具中收录的爸爸妈妈的声音给孩子讲故事，伴孩子入眠。</p>
 <p><strong>如何进入小程序：</strong></p>
@@ -350,7 +305,7 @@
 <li><code>在微信-&gt;发现-&gt;小程序，里面搜索『讯飞留声Lite』找到并打开</code></li>
 <li>或者扫一扫下面的小程序码进入：</li>
 </ol>
-<p><img src="https://www.xikuang.ren/zy/2018-07-30-15329339351970.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563203306422.jpg" alt=""></p>
 ]]></content>
     </entry>
     <entry>
@@ -359,51 +314,105 @@
         <link href="https://xikuang.ren/post/pascal-triangle">
         </link>
         <updated>2018-07-26T14:14:22.000Z</updated>
-        <summary type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326095734585.jpg?imageslim" alt="杨辉三角"></p>
-<p>就是这个看上去平平无奇的数字三角形，却有一些非常奇妙甚至是神秘的特性，本文将一一为您揭晓。</p>
+        <summary type="html"><![CDATA[<p>就是这个看上去平平无奇的数字三角形，却有一些非常奇妙甚至是神秘的特性，本文将一一为您揭晓。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326095734585.jpg?imageslim" alt="杨辉三角"></p>
-<p>就是这个看上去平平无奇的数字三角形，却有一些非常奇妙甚至是神秘的特性，本文将一一为您揭晓。</p>
+        <content type="html"><![CDATA[<p>就是这个看上去平平无奇的数字三角形，却有一些非常奇妙甚至是神秘的特性，本文将一一为您揭晓。</p>
 <!-- more --> 
 <p>杨辉三角（也称帕斯卡三角）相信很多人都不陌生，它是一个无限对称的数字金字塔，从顶部的单个1开始，下面一行中的每个数字都是上面两个数字的和。</p>
 <blockquote>
 <p>杨辉三角，是二项式系数在三角形中的一种几何排列，在中国南宋数学家杨辉1261年所著的《详解九章算法》一书中出现。在欧洲，帕斯卡（1623----1662）在1654年发现这一规律，所以这个表又叫做帕斯卡三角形。帕斯卡的发现比杨辉要迟393年，比贾宪迟600年。</p>
 </blockquote>
 <h2 id="1-最外层的数字始终是-1">1、最外层的数字始终是 1</h2>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326099695984.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563203378550.jpg" alt=""></p>
 <h2 id="2-第二层是自然数列">2、第二层是自然数列</h2>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326101238109.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563203392145.jpg" alt=""></p>
 <h2 id="3-第三层是三角数列">3、第三层是三角数列</h2>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326101933902.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563203407085.jpg" alt=""></p>
 <p>什么是三角数列，看一下下图就明白了，这个数列中的数字始终可以组成一个完美的等边三角形。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326104105253.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563203419681.jpg" alt=""></p>
 <h2 id="4-三角数列相邻数字相加可得方数数列">4、三角数列相邻数字相加可得方数数列</h2>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326106252523.jpg?imageslim" alt=""></p>
+<p><img src="https://xikuang.ren/post-images/1563203448492.jpg" alt=""></p>
 <p>什么又是方数数列呢？雷同与三角数列，就是它的数字始终可以组成一个完美的正方形。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326105834282.jpg?imageslim" alt="正方数列"></p>
+<p><img src="https://xikuang.ren/post-images/1563203468323.jpg" alt=""></p>
 <h2 id="5-每一层的数字之和是一个2倍增长的数列">5、每一层的数字之和是一个2倍增长的数列</h2>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326110003771.jpg?imageslim" alt="2倍增长数列"></p>
+<p><img src="https://xikuang.ren/post-images/1563203494407.jpg" alt=""></p>
 <h2 id="6-斐波那契数列">6、斐波那契数列</h2>
 <p>没错，如果按照一定角度将直线上的数字相加，我们也可以从杨辉三角中找到斐波那契数列。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326112546956.jpg?imageslim" alt="斐波那契数列"></p>
+<p><img src="https://xikuang.ren/post-images/1563203507971.jpg" alt=""></p>
 <p>斐波那契数列是指从 0，1 两个数开始，每一位数始终是前两位的和。这个数列有个神秘的特性，即越往后，相邻两数的比值越来越逼近黄金分割数 0.618 (或1.618，两数互为倒数)。斐波那契数列和黄金分割数不但在大自然中处处可见，在人类的艺术设计中也是应用非常广泛。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326133356232.jpg?imageslim" alt="斐波那契螺旋线"></p>
+<p><img src="https://xikuang.ren/post-images/1563203532213.jpg" alt=""></p>
 <h2 id="7-素数">7、素数</h2>
 <p>素数是指只能被 1 和它本身整除的数字。然而在杨辉三角里，除了第二层自然数列包含了素数以外，其他部分的数字都完美避开了素数。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326116836127.jpg?imageslim" alt="素数"></p>
+<p><img src="https://xikuang.ren/post-images/1563203552693.jpg" alt=""></p>
 <h2 id="8-可以被特定数整除的数字形成了奇妙的分形结构">8、可以被特定数整除的数字形成了奇妙的分形结构</h2>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326120942925.jpg?imageslim" alt="可以被 2 整除的数字"><br>
+<p><img src="https://xikuang.ren/post-images/1563203574143.jpg" alt=""><br>
 可以被 2 整除的数字</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326121417337.jpg?imageslim" alt="可以被 3 整除的数字"><br>
+<p><img src="https://xikuang.ren/post-images/1563203588696.jpg" alt=""><br>
 可以被 3 整除的数字</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326121883670.jpg?imageslim" alt="可以被 4 整除的数字"><br>
+<p><img src="https://xikuang.ren/post-images/1563203602502.jpg" alt=""><br>
 可以被 4 整除的数字</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326122508492.jpg?imageslim" alt="可以被 5 整除的数字"><br>
+<p><img src="https://xikuang.ren/post-images/1563203615575.jpg" alt=""><br>
 可以被 5 整除的数字</p>
 <p>如果我们把杨辉三角再放大，就会发现这些可以被特定数字整数的数的分布非常有规律，它们会形成类似分形的图案。</p>
-<p><img src="https://www.xikuang.ren/zy/2018-07-26-15326140086954.gif?imageslim" alt="分形"><br>
+<p><img src="https://xikuang.ren/post-images/1563203661200.gif" alt=""><br>
 分形</p>
 <p>这些就是阁主总结的杨辉三角的几个奇妙特性，如果您有其他的发现，欢迎补充。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[猜画小歌：Google 利用微信用户训练谷歌人工智能]]></title>
+        <id>https://xikuang.ren/post/google-wechatgame</id>
+        <link href="https://xikuang.ren/post/google-wechatgame">
+        </link>
+        <updated>2018-07-18T15:09:50.000Z</updated>
+        <summary type="html"><![CDATA[<p>这两天，Google 发布了叫做『猜画小歌』的小游戏，立刻火遍了大江南北。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这两天，Google 发布了叫做『猜画小歌』的小游戏，立刻火遍了大江南北。</p>
+<!-- more -->
+<p><img src="https://xikuang.ren/post-images/1563203797918.png" alt=""></p>
+<p>有人问 Google 不是被墙了吗？没错，但这次 Google 把游戏发布到微信小程序里了，所有不管国内国外、不管是苹果华为、不管是 Android 还是 iOS，只要有微信，在小程序中搜索『猜画小歌』就可以玩这款游戏。</p>
+<p>游戏的内容主要是『你画 AI 猜』，游戏会随机给一个物品名称，如『山』、『时钟』、『洗衣机』，你要凭自己的印象画出来，画的过程中，AI 会用语音不断猜测你画的是什么，直到 AI 猜中，得分并出现下一个词语，如果20秒之内未猜出，游戏结束。</p>
+<p><img src="https://xikuang.ren/post-images/1563203846964.gif" alt=""></p>
+<p>由于时间很紧，而且玩家大多也没有受过专业培训，结果画风都是这种鬼斧神工式的，你能猜出来我画的啥吗？</p>
+<p><img src="https://xikuang.ren/post-images/1563203875896.jpg" alt=""></p>
+<p>然而不可否认，只要您能画出一个大概轮廓，甚至还没有画完，AI 就会马上猜出来，——除非你自己画的东西自己都看不懂。</p>
+<p>目前，游戏排行榜上已经有牛人让 AI 在 19 分钟内连续猜对了 264 幅图片，牛！</p>
+<p><img src="https://xikuang.ren/post-images/1563203914003.png" alt=""></p>
+<p>其实今年早些时候就看到过一则新闻，称 Google 正在开发一款人工智能程序，主要功能就是可以辨认人类的涂鸦。 看来 Google 的工程师们并不满足于只在实验室里训练 AI ,毕竟训练 AI 是非常耗时耗人工耗资源而且非常枯燥乏味的工作，因此他们想了一个妙招，直接发布到游戏平台上，到时候直接在后台等着拷数据就好了。</p>
+<p>相信随着人工智能技术的蓬勃发展，今后会有更多这种通过移动设备、游戏、APP搜集大数据、模拟研究人类行为、认知的新技术出现。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress 5.0 新功能展望]]></title>
+        <id>https://xikuang.ren/post/wordpress5newfeature</id>
+        <link href="https://xikuang.ren/post/wordpress5newfeature">
+        </link>
+        <updated>2018-07-15T11:31:25.000Z</updated>
+        <summary type="html"><![CDATA[<p>WordPress 从 2003 年第一个版本发布到现在已经经过了 15 年的发展历程，目前已经占领了近 60％ 的 CMS 市场份额，互联网上有 30% 的网站是以 Wordpress 作为后台。目前，WordPress 的最新一个稳定版本是 4.9.7，所以我们距离下一个大的版本 5.0 版本已经很近了。那么我们对 Wordpress 5.0 可以有什么样的期望呢？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>WordPress 从 2003 年第一个版本发布到现在已经经过了 15 年的发展历程，目前已经占领了近 60％ 的 CMS 市场份额，互联网上有 30% 的网站是以 Wordpress 作为后台。目前，WordPress 的最新一个稳定版本是 4.9.7，所以我们距离下一个大的版本 5.0 版本已经很近了。那么我们对 Wordpress 5.0 可以有什么样的期望呢？</p>
+<!-- more -->
+<h2 id="1革命性的古腾堡gutenberg编辑器"><strong>1.革命性的古腾堡(Gutenberg)编辑器</strong></h2>
+<p>编辑器应该是 WordPress 5.0 版本最大的变化。Wordpress 团队计划彻底改变用户向 WP 网站添加内容的方式，将传统文本编辑器 Tiny MCE 替换为基于块的文本编辑器 Gutenberg。</p>
+<p>Gutenberg 编辑器提出了一个概念，及文章中的所有元素都是『块（blocks）』，标题、文本段落、图像、视频、小部件等等。即使是新手，也可以非常直观、简便地编辑每个块的属性，如颜色、背景、大小、位置等等。</p>
+<p><img src="https://xikuang.ren/post-images/1563204104392.jpg" alt=""></p>
+<p>Gutenberg 到目前还是以插件的形式供爱好者试用和测试。西狂部落阁一年前曾今发布过文章 [WordPress 未来的文章编辑器 Gutenberg 试用]，当时的 Gutenberg 0.7 版本只是个雏形，只支持英文，bug 很多，试用期间一直在报错。而现在这个插件已经来到了3.2.0，支持中文，界面也很漂亮，支持移动设备，已经可以完成发布文章的任务了。</p>
+<p>有兴趣的同学可以在后台搜索 Gutenberg 下载使用。</p>
+<h2 id="2更高的安全性"><strong>2.更高的安全性</strong></h2>
+<p><img src="https://xikuang.ren/post-images/1563204160604.jpg" alt=""></p>
+<p>鉴于 2017 年 1 月发生的严重的 WordPress REST API 攻击事件， WordPress已经引入了一些安全功能，例如推荐使用SSL证书托管网站、两步身份验证、应用程序密码等。</p>
+<p><strong>两步验证(Two Factor Authentication)</strong> 指的是用户登录账户的时候，除了要输入用户名和密码，还要求用户输入一个随机生成发送到手机的动态密码，为帐户额外添加了一层保护，即使入侵者窃取了用户的密码，也会因不能使用用户的手机而无法登录帐户。</p>
+<h2 id="3更好的移动端优化"><strong>3.更好的移动端优化</strong></h2>
+<p>虽然 WordPress 已经在移动端领域也取得了相当不错的成绩，但 Wordpress 团队称正在移动设备上为 WP 站点提供与桌面端类似的高级查看和编辑选项，不断改善开发人员和用户的移动体验，减少桌面和移动设备之间网站维护的差异。此外，现在大多数 WP 主题都是响应式的了。</p>
+<p><img src="https://xikuang.ren/post-images/1563204176185.png" alt=""></p>
+<h2 id="4对新手更加友好"><strong>4.对新手更加友好</strong></h2>
+<p><img src="https://xikuang.ren/post-images/1563204189284.jpg" alt=""></p>
+<p>与 Gutenberg 编辑器的介绍一样，未来的 WordPress 版本将专注于确保更容易直观的网站管理，确保初学者有良好的使用体验。</p>
+<p>例如大大简化 SSL 证书的安装过程，减少定制小部件时需要直接使用 HTML、CSS、JS 代码的要求，即使没有前端技术，也能更容易的访问 Wordpress 的高级定制功能，为用户减少了需要雇用专业开发人员的麻烦和成本。</p>
+<h2 id="5转向-saas"><strong>5.转向 SaaS</strong></h2>
+<p><img src="https://xikuang.ren/post-images/1563204206530.jpg" alt=""></p>
+<p>SaaS 是 Software-as-a-Service 的简称，意思是软件即服务。SaaS 是随着互联网技术的发展和应用软件的成熟，而在21世纪开始兴起的一种通过Internet提供软件的模式，厂商将应用软件统一部署在自己的服务器上，客户可以根据自己实际需求，通过互联网向厂商定购所需的应用软件服务，按定购的服务多少和时间长短向厂商支付费用，并通过互联网获得厂商提供的服务。对于许多小型企业或个人用户来说，SaaS 是采用先进技术的最好途径，它消除了用户购买、构建和维护基础设施和应用程序的需要。 SaaS 应用程序会自动更新，并且由于它们是从云端运行的，因此它们不会消耗用户服务器的宝贵资源，从而提高了网站性能。</p>
+<p>SaaS 已经在互联网上广泛流行，WordPress 团队似乎也在转向该解决方案。 由 Matt Mullenweg 创立的 WooCommerce 已经实现了 Woo 插件和插件的自动更新。 在未来的 WordPress 版本中，我们可能会看到更多基于 SaaS 的解决方案。</p>
 ]]></content>
     </entry>
 </feed>
