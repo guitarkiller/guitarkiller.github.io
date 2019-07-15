@@ -1,147 +1,169 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>科学漫步 | 西狂部落阁</title>
-<link rel="shortcut icon" href="https://xikuang.ren/favicon.ico?v=1563204669604">
+<meta name="description" content="点滴珍藏|快乐分享">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xikuang.ren/favicon.ico?v=1563205739149">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://xikuang.ren/styles/main.css">
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://xikuang.ren">
-  <img class="avatar" src="https://xikuang.ren/images/avatar.png?v=1563204669604" alt="">
-  </a>
-  <h1 class="site-title">
-    西狂部落阁
-  </h1>
-  <p class="site-description">
-    点滴珍藏|快乐分享
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
+    <div id="app" class="main">
 
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：#科学漫步
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://xikuang.ren/post/spotminionsell">
-        <h2 class="post-title">波士顿动力公司 (Boston Dynamics) 将四足机器人 SpotMini 推向市场</h2>
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xikuang.ren">
+        <img src="https://xikuang.ren/images/avatar.png?v=1563205739149" class="site-logo">
+        <h1 class="site-title">西狂部落阁</h1>
       </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2018-08-11 ·
-        </time>
-        
-          <a href="https://xikuang.ren/tag/ke-xue-man-bu" class="post-tag">
-            # 科学漫步
-          </a>
-        
-      </div>
-      
-        <a href="https://xikuang.ren/post/spotminionsell" class="post-feature-image" style="background-image: url('https://xikuang.ren/post-images/spotminionsell.jpeg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>波士顿动力公司（Boston Dynamics）在实验室研究迭代多款令人惊叹的智能机器人设计后，终于准备将其首款比较成熟的原型——一款名为 SpotMini 的小型狗式机器人推向市场。</p>
-
-      </di>
-    </article>
-  
-    <article class="post">
-      <a href="https://xikuang.ren/post/pascal-triangle">
-        <h2 class="post-title">数学之美：杨辉三角(帕斯卡三角)的奇特性质</h2>
-      </a>
-      <div class="post-info">
-        <time class="post-time">
-          · 2018-07-26 ·
-        </time>
-        
-          <a href="https://xikuang.ren/tag/ke-xue-man-bu" class="post-tag">
-            # 科学漫步
-          </a>
-        
-      </div>
-      
-        <a href="https://xikuang.ren/post/pascal-triangle" class="post-feature-image" style="background-image: url('https://xikuang.ren/post-images/pascal-triangle.jpg')">
-        </a>
-      
-      <div class="post-abstract">
-        <p>就是这个看上去平平无奇的数字三角形，却有一些非常奇妙甚至是神秘的特性，本文将一一为您揭晓。</p>
-
-      </di>
-    </article>
-  
-</div>
-
-        <div class="pagination-container">
-  
-  
-</div>
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="https://xikuang.ren/atom.xml" target="_blank">RSS</a>
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
       </div>
     </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      点滴珍藏|快乐分享
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xikuang.ren/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: 科学漫步</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xikuang.ren/post/spotminionsell">
+                  <h2 class="post-title">波士顿动力公司 (Boston Dynamics) 将四足机器人 SpotMini 推向市场</h2>
+                </a>
+                <div class="post-date">
+                  2018-08-11
+                </div>
+                <div class="post-abstract">
+                  <p>波士顿动力公司（Boston Dynamics）在实验室研究迭代多款令人惊叹的智能机器人设计后，终于准备将其首款比较成熟的原型——一款名为 SpotMini 的小型狗式机器人推向市场。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://xikuang.ren/post/spotminionsell">
+                  <div class="feature-container" style="background-image: url('https://xikuang.ren/post-images/spotminionsell.jpeg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xikuang.ren/post/pascal-triangle">
+                  <h2 class="post-title">数学之美：杨辉三角(帕斯卡三角)的奇特性质</h2>
+                </a>
+                <div class="post-date">
+                  2018-07-26
+                </div>
+                <div class="post-abstract">
+                  <p>就是这个看上去平平无奇的数字三角形，却有一些非常奇妙甚至是神秘的特性，本文将一一为您揭晓。</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://xikuang.ren/post/pascal-triangle">
+                  <div class="feature-container" style="background-image: url('https://xikuang.ren/post-images/pascal-triangle.jpg')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>
