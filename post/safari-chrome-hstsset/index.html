@@ -9,10 +9,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://xikuang.ren/favicon.ico?v=1563205739149">
+<link rel="shortcut icon" href="https://xikuang.ren/favicon.ico?v=1563274739451">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://xikuang.ren/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -30,7 +36,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://xikuang.ren">
-        <img src="https://xikuang.ren/images/avatar.png?v=1563205739149" class="site-logo">
+        <img src="https://xikuang.ren/images/avatar.png?v=1563274739451" class="site-logo">
         <h1 class="site-title">西狂部落阁</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -149,6 +155,12 @@
             
 
             
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
 
           </div>
 
@@ -172,6 +184,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '30036e803988a40b245f',
+        clientSecret: 'b9dfe49470fc0c6d0eaa2ea6e2569e23770547ed',
+        repo: 'guitarkiller.github.io',
+        owner: 'guitarkiller',
+        admin: ['guitarkiller'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
